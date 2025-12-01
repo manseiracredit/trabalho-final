@@ -3,24 +3,25 @@
 ### Fonte: https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
 
 
-## TODO - FORMATAR 
+## Explicação dos Dados
 
-* **OBJ_ID:** IDENTIFICADOR ÚNICO DO OBJETO NA BASE DO SDSS.
-* **ALPHA (RA):** COORDENADA CELeste HORIZONTAL, COMO A “LONGITUDE” DO CÉU.
-* **DELTA (DEC):** COORDENADA CELeste VERTICAL, COMO A “LATITUDE” DO CÉU.
-* **U:** QUANTO O OBJETO BRILHA NO ULTRAVIOLETA.
-* **G:** QUANTO O OBJETO BRILHA NA REGIÃO VERDE/AZUL DO ESPECTRO.
-* **R:** QUANTO O OBJETO BRILHA NA REGIÃO VERMELHA.
-* **I:** BRILHO NO INFRAVERMELHO PRÓXIMO.
-* **Z:** BRILHO NO INFRAVERMELHO MAIS PROFUNDO.
-* **RUN_ID:** CÓDIGO DO SCAN (PASSAGEM DO TELESCÓPIO) EM QUE A IMAGEM FOI CAPTURADA.
-* **RERUN_ID:** VERSÃO DO PROCESSAMENTO DAQUELE RUN (REPROCESSAMENTO).
-* **CAM_COL:** COLUNA DA CÂMERA (QUAL SENSOR DO TELESCÓPIO FOI USADO).
-* **FIELD_ID:** IDENTIFICA O CAMPO (REGIÃO DO CÉU) DAQUELE SCAN.
-* **SPEC_OBJ_ID:** ID ÚNICO DO OBJETO NA BASE ESPECTROSCÓPICA (OBJETOS IGUAIS TÊM O MESMO ID).
-* **CLASS:** O TIPO DO OBJETO (STAR / GALAXY / QSO).
-* **REDSHIFT:** O QUANTO O COMPRIMENTO DE ONDA FOI DESLOCADO PARA O VERMELHO → INDICA DISTÂNCIA/EXPANSÃO.
-* **PLATE:** ID DA PLACA ESPECTROSCÓPICA USADA NA CAPTURA DO ESPECTRO.
-* **MJD:** DATA EM QUE A OBSERVAÇÃO FOI FEITA (FORMATO JULIANO MODIFICADO).
-* **FIBER_ID:** IDENTIFICA QUAL FIBRA DO EQUIPAMENTO CAPTOU A LUZ DO OBJETO.
+- **OBJ_ID:** Identificador único do objeto na base do SDSS
+- **ALPHA (RA):** Coordenada celeste horizontal, equivalente à “longitude” do céu
+- **DELTA (DEC):** Coordenada celeste vertical, equivalente à “latitude” do céu
+- **U:** Brilho do objeto no ultravioleta
+- **G:** Brilho na região verde/azul
+- **R:** Brilho na região vermelha
+- **I:** Brilho no infravermelho próximo
+- **Z:** Brilho no infravermelho profundo
+- **RUN_ID:** Código do scan (passagem do telescópio) em que a imagem foi capturada
+- **RERUN_ID:** Versão do processamento daquele run (reprocessamento)
+- **CAM_COL:** Coluna da câmera (sensor usado na captura)
+- **FIELD_ID:** Identifica o campo (região do céu) daquela observação
+- **SPEC_OBJ_ID:** ID único do objeto na base espectroscópica (objetos iguais têm o mesmo ID)
+- **CLASS:** Tipo do objeto, pode ser Estrela (STAR), Galáxia (GALAXY) ou Quasar (QSO)
+- **REDSHIFT:** Deslocamento para o vermelho dos comprimentos de onda, indica distância/expansão do universo
+- **PLATE:** ID da placa espectroscópica usada na captura do espectro
+- **MJD:** Data da observação no formato **Modified Julian Date** (MJD)
+- **FIBER_ID:** Identificador da fibra que captou a luz do objeto
+
 
